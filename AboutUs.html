@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Web Icon.jpg" />
+    <meta
+    name="description"
+    content="About OU Lambdas"
+  />
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@800&display=swap');
+        ::-webkit-scrollbar {
+    display: none;
+}
+    header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.header .navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
+}
+
+
+.navContainer {
+    text-align: center;
+    justify-content: center;
+    }
+
+
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+.aboutUs {
+    text-align: center;
+    color: black;
+}
+
+.historyContainer {
+    text-align: left; padding-bottom: 20px; padding-left: 200px; padding-right: 200px;
+}
+
+.ouHistory {
+    text-align: right; padding-bottom: 20px; padding-left: 200px; padding-right: 200px;
+
+}
+
+.philanthropy {
+    text-align: left; padding-bottom: 20px; padding-left: 200px; padding-right: 200px;
+
+
+}
+
+.asianAwareness {
+    text-align: Center; padding-bottom: 20px; padding-left: 200px; padding-right: 200px;
+
+}
+
+.graduatingBrothers {
+    text-align: Right; padding-bottom: 20px; padding-left: 200px; padding-right: 200px;
+}
+
+.imgContainer img {
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+  object-fit: contain;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* 2xl */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {
+ 
+}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {
+    .historyContainer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .ouHistory {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  
+    .philanthropy {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .asianAwareness {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+}
+
+/* sm */
+@media (max-width: 640px) {}
+
+/* xs */
+@media (max-width: 475px) {}
+
+.ground{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  background: #faf5f5;
+  padding: 20px 0;
+}
+
+.footer_container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 180px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social_media{
+  margin: 20px 150px;
+}
+
+.social_media a{
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+  transition: .6s;
+}
+
+.social_media a:hover{
+  color: gold;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+</style>
+<header>
+
+    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+    <div class="overlay"></div>
+  
+    <!-- The HTML5 video element that will create the background video on the header -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/Images/Official Rush Video.mp4" type="video/mp4">
+    </video>
+  
+    <!-- The header content -->
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center" style="font-family: 'Chivo', sans-serif;
+      ">
+        <div class="w-100 text-white">
+          <h1 class="display-3">ABOUT US</h1>
+          <p class="lead mb-0">Philanthropy - Leadership - Asian Awareness - Brotherhood - Academic Achievement
+          </p>
+          <p></p>
+          <button style="position: relative; right: 10px"><a href="Rush.html" style="text-decoration: none; color: white;">RUSH FAQ</a></button>
+          <button style="position: relative;" ><a href="Home.html" style="text-decoration: none; color: white;">HOME</a></button>
+          <button style="position: relative;left: 10px;"><a href="Archives.html" style="text-decoration: none; color: white;">ARCHIVES</a></button>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="my-5" style="overflow: hidden;">
+
+    <div class="container-fluid">
+    <div class="aboutUs">
+        <div class="historyContainer">
+            <div class="col-lg-12"><h1>NATIONAL HISTORY | &Lambda;&Phi;&Epsilon;</h1><p>Lambda Phi Epsilon was founded on February 25, 1981 by a group of 
+                nineteen dedicated men led by Principal Founder Master Craig Ishigo. The goal of the founders was to transcend 
+                the limitations faced by traditional Asian-interest organizations on campus. While these organizations were often
+                split along lines of national origins, the founders sought an establishment that drew its membership equally from the different segments of the Asian American community. Their vision was that the members would eventually become the leaders of their respective ethnic communities, and thus, bridge the gaps fragmenting the Asian American community through their affiliation with a common organization. While the initial charter was comprised of Asian Pacific Americans, the brotherhood was open to all who were interested in supporting these goals. Establishing Alpha Chapter at UCLA,
+                 Mr. Craig Ishigo and Mr. Darryl L. Mu signed the charter as President and Vice President, respectively.
+               </p><p> On September 8th, 1990, Lambda Phi Epsilon reached another milestone and became the first and only nationally recognized Asian-interest fraternity in the United States with the admission to the National Interfraternity Conference. In 2004, Lambda Phi Epsilon expanded as an international fraternity by chartering its first chapter outside of the United States at the University of Toronto. In 2006, Lambda Phi Epsilon joined the National Asian Pacific Islander Desi American Panhellenic Association to increase collaboration and partnership between fellow APIDA Greek organizations. Today, Lambda Phi Epsilon is widely renowned as the preeminent international Asian-interest fraternal organization, providing outstanding leadership, philanthropy, and advocacy in the community.</p></div>            
+              </div>
+          <div class="imgContainer"><img src="/Images/History.jpg" alt="history"></div>
+               
+        <div class="ouHistory">
+            <div class="col-12"><h1>OUR STORY</h1><h2>15+ Years of ALPHA PHI Legacy</h2> <p>On February 12, 2006, six men came together to form the Lambda Phi Epsilon interest group, the Brotherhood of Asian Men (BAM). After venturing to Houston for the southwest regional event, Governor's Cup, they decided that Lambda Phi Epsilon was the perfect fit. By the Fall of 2006, BAM had more than doubled in size bringing its roster to fourteen brothers strong. Through their next year and a half venture, the men of BAM would travel across the nation, from California to New York, Texas to Michigan, meeting brothers of Lambda Phi Epsilon and gaining experiences that will be remembered for a lifetime. During this time, BAM held numerous philanthropic, brotherhood and social events to help the organization grow, bond, and establish recognition of its name. Finally on December 2nd, 2007, all fourteen men crossed, thus Lambda Phi Epsilon was formally brought to the University of Oklahoma. In all, the fourteen were of diverse backgrounds consisting members of Caucasian, Chinese, Hmong, Korean, and Vietnamese origins.
+                </p><p>Since becoming Lambdas, the Oklahoma Chapter has been successful in advancing the Asian Greek scene in both the university and the community. With a minimum of four philanthropy projects a semester, participation with the intramural sports teams, and hosting various social functions for both Asian and Greek organizations, the "OU Lambdas" has definitely become leaders in innovation, diversity, and unity fit for the Lambda motto and serving the principal goals of the founders--"to be leaders among men."</p></div>
+            
+        </div>
+
+        <div class="imgContainer"><img src="/Images/Legacy.jpg" alt="history"></div>
+
+        <div class="philanthropy">
+            <div class="col-12"><h1>Philanthropy</h1><P>Lambda Phi Epsilon works with the National Marrow Donor Program (NMDP) to save the lives of patients requiring bone marrow transplants. Additionally, the fraternity promotes awareness for leukemia and other blood disorders. Individuals who suffer from these types of illnesses depend on donors with similar ethnic backgrounds to find compatible bone marrow matches. Thus, the fraternity aims to register as many committed donors to the cause through local #BeTheMatch campaigns to increase the chances for patients to find a life-saving a donor.
+               </P><p> In 1995, Evan Chen, a member of Theta Chapter at Stanford University, was diagnosed with leukemia. Their chapter, along with Evan’s friends, organized a joint effort to find a bone marrow donor. What resulted was the largest bone marrow typing drive in the history of the NMDP and Asian American Donor Program (AADP). In a matter of days, over two thousand people were typed into the bone marrow registry. A match was eventually found for Evan, but unfortunately by that time the disease had taken its toll on him and he passed away in 1996. In Evan’s memory, the national philanthropy for Lambda Phi Epsilon was established and the fraternity has been working with the organization from that point forward.</p></div>
+        </div>
+
+        <div class="imgContainer"><img src="/Images/philanthropy.jpg" alt="history" ></div>    
+
+      
+
+        <div class="asianAwareness">
+            <div class="col-12"><h1>ASIAN AWARENESS</h1> <p>In the vibrant landscape of fraternity life, Lambda Phi Epsilon emerges as a beacon for championing Asian Awareness through a diverse array of initiatives. As a member of this nationally recognized Asian-interest fraternity, they actively engage in activities aimed at celebrating and educating about their rich heritage. From culturally immersive events and collaborations with like-minded organizations to impactful educational initiatives, Lambda Phi Epsilon is committed to making a positive impact on the Asian community.
+            Beyond the traditional realms of brotherhood, Lambda Phi Epsilon distinguishes itself through active participation in philanthropy and community service projects. Their dedication extends to thoughtfully crafted awareness campaigns, tackling stereotypes and highlighting the diverse experiences within the Asian community.</p><p>Lambda Phi Epsilon's overarching mission, rooted in fostering brotherhood, leadership, scholarship, and cultural awareness, finds expression through these dynamic initiatives. It's essential to note that specific activities may vary among chapters, reflecting the unique characteristics of each local community. For those seeking a deeper understanding or desiring to get involved, reaching out to a specific chapter or staying updated on official communications will unlock the rich tapestry of Lambda Phi Epsilon's contributions to Asian Awareness. Join them on a journey of celebration, education, and positive impact as they redefine the purpose of a fraternity.</p></div>
+        </div>
+        <div class="imgContainer"><img src="/Images/Asian Awareness.jpg" alt="history" ></div>    
+
+        
+    </div>
+
+    </div>
+
+  
+
+  </section>
+
+
+    <footer>
+      <div class="footer_container">
+        <div class="logo"> <p>OKLAHOMA LAMBDAS</p></div>
+          <div class="social_media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p>Lambda Phi Epsilon International Fraternity Inc @ 2023 All Rights Reserved.</p>
+        </div>
+    </footer>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</html>

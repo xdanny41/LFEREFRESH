@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rush FAQ</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Web Icon.jpg" />
+    <meta
+    name="description"
+    content="RUSH FAQ"
+  />
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@800&display=swap');
+
+
+        ::-webkit-scrollbar {
+    display: none;
+}
+    header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.header .navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
+}
+
+
+.navContainer {
+    text-align: center;
+    justify-content: center;
+    }
+
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+.rushFAQ {
+    text-align: center;
+}
+.p {
+    word-wrap: break-word;
+white-space: pre-wrap;
+word-break: break-word;
+}
+.test {
+    padding-top: 50px;
+    height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.slider {
+  width: 100%;
+  max-width: 800px;
+  height: 900px;
+  position: relative;
+  overflow: hidden; /* <===  */
+  border-radius: 15px;
+}
+
+.slide {
+  width: 100%;
+  max-width: 800px;
+  height:900px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+}
+.btn:active {
+  transform: scale(1.1);
+}
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+.rushLI {
+    list-style-type: none; text-align: left; padding-bottom: 20px; padding-left: 200px; padding-right: 200px;
+}
+/*Test*/
+/* 2xl */
+@media (max-width: 1536px) {
+    
+}
+
+@media (max-width: 1400px) {
+    .slide {
+        height: 700px;
+    }
+    .slider {
+        height: 700px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .slide {
+        height: 700px;
+    }
+    .slider {
+        height: 700px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .slide {
+        height: 700px;
+    }
+    .slider {
+        height: 700px;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .rushLI {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {}
+
+/* xs */
+@media (max-width: 475px) {}
+
+.ground{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  background: #faf5f5;
+  padding: 20px 0;
+}
+
+.footer_container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 180px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social_media{
+  margin: 20px 150px;
+}
+
+.social_media a{
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+  transition: .6s;
+}
+
+.social_media a:hover{
+  color: gold;
+}
+</style>
+
+<body>
+    <header>
+
+    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+    <div class="overlay"></div>
+  
+    <!-- The HTML5 video element that will create the background video on the header -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/Images/Official Rush Video.mp4" type="video/mp4">
+    </video>
+
+    <!-- The header content -->
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center" style="font-family: 'Chivo', sans-serif;
+      ">
+        <div class="w-100 text-white">
+          <h1 class="display-3">RUSH</h1>
+          <p class="lead mb-0">SPRING 2024</p>
+          <p></p>
+          <button style="position: relative; right: 10px"><a href="AboutUs.html" style="text-decoration: none; color: white;">ABOUT US</a></button>
+          <button ><a href="Home.html" style="text-decoration: none; color: white;">HOME</a></button>
+          <button style="position: relative; left: 10px"><a href="ContactUs.html" style="text-decoration: none; color: white;">CONTACT US</a></button>
+
+        </div>
+        
+      </div>
+    </div>
+  </header>
+
+  <!-- Slider container -->
+  
+<div class="test">
+    <div class="slider">
+      <!-- slide 1 -->
+      <div class="slide">
+        <img src="/Images/rush_schedule1.png" alt="" />
+      </div>
+    
+      <!-- slide 2 -->
+      <div class="slide">
+        <img src="/Images/rush_schedule2.png" alt="" />
+      </div>
+    
+      <!-- Control buttons -->
+      <button class="btn btn-next"> > </button>
+      <button class="btn btn-prev">
+         </button>
+    </div>
+    </div>
+</div>
+
+
+
+
+  <section class="my-5" style="overflow: hidden;">
+    
+    <div class="container-fluid">
+    <div class="rushFAQ" style="padding-top: 50px;">
+        <div class="col-lg-12">
+            <h1 style="font-size: 100px; font-family: Chivo, sans-serif;">RUSH FAQ</h1>
+           <li class ="rushLI">
+            <h1>What is Rush?</h1>
+            <p>Rush is a period of time near the beginning of a semester where students
+                can meet members of different Greek organizations and get a glimspse of
+                what Greek life is. Usually lasting 1-2 weeks, various events are held
+                for potentials to get to know the Active House.</p>
+        </li>
+        <li class ="rushLI">
+            <h1>Should I attend Rush Events?</h1> 
+            <p> If you are serious about joining Lambda Phi Epsilon, you are highly
+                encouraged to attend all rush events from beginning to end. Rush is
+                designed to give interested individuals a glimpse into real fraternity
+                life, so the more you experience and see for yourself, the better idea
+                you will have of whether the fraternity is something you want to be a
+                part of. &Alpha;&Phi; Chapter requires at least 2 rush events and one
+                informational to be considered for a bid.</p>
+        </li>
+        <li class ="rushLI">
+            <h1>What happens after Rush?</h1>
+            <p>If you are interested in joining us, you will be offered an interview. 
+                After that, if the brothers feel that you are a good fit for the fraternity, 
+                you will be given an invitation to pledge and become a brother of Lambda Phi Epsilon. 
+                There is no obligation for you to take action after rush has concluded. 
+                Rush is simply an opportunity for you to introduce yourself and become more 
+                familiar with the fraternity and the brothers.</p>
+        </li>
+        <li class ="rushLI">
+            <h1>How will joining Lambda Phi Epsilon affect my education?
+            </h1>
+            <p>   While you are encouraged to learn more about the Greek system, we want
+                you to remember why you are at school in the first place. Lambda Phi
+                Epsilon’s first and foremost purpose is to promote academic achievement
+                and this priority is stressed even to prospective members. Like any
+                worthwhile undertaking, joining a fraternity will most likely require
+                some time and effort. Managing school and joining a fraternity is
+                definitely possible, though, and part of becoming a Lambda is learning
+                how to handle these challenges and become a responsible, well-rounded
+                individual. The active members of the fraternity are students as well,
+                and they will be committed to ensuring your academic success. Be sure to
+                find the right balance to have a rewarding college life both
+                academically and socially.</p>
+        </li>
+        <li class ="rushLI">
+            <h1>Do I need to be Asian to join?</h1>
+            <p> No. Lambda Phi Epsilon is an Asian interest fraternity that focuses on
+                the promotion of Asian American awareness, but members of every
+                ethnicity, race, religion, and creed are accepted.</p>
+        </li>
+       
+    </div>
+</div>
+  </section>
+ 
+
+    <footer>
+      <div class="footer_container">
+        <div class="logo"> <p>OKLAHOMA LAMBDAS</p></div>
+          <div class="social_media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p>Lambda Phi Epsilon International Fraternity Inc @ 2023 All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+    "use strict";
+// Select all slides
+const slides = document.querySelectorAll(".slide");
+
+// loop through slides and set each slides translateX
+slides.forEach((slide, indx) => {
+  slide.style.transform = `translateX(${indx * 100}%)`;
+});
+
+// select next slide button
+const nextSlide = document.querySelector(".btn-next");
+
+// current slide counter
+let curSlide = 0;
+// maximum number of slides
+let maxSlide = slides.length - 1;
+
+// add event listener and navigation functionality
+nextSlide.addEventListener("click", function () {
+  // check if current slide is the last and reset current slide
+  if (curSlide === maxSlide) {
+    curSlide = 0;
+  } else {
+    curSlide++;
+  }
+
+  //   move slide by -100%
+  slides.forEach((slide, indx) => {
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+});
+
+// select next slide button
+const prevSlide = document.querySelector(".btn-prev");
+
+// add event listener and navigation functionality
+prevSlide.addEventListener("click", function () {
+  // check if current slide is the first and reset current slide to last
+  if (curSlide === 0) {
+    curSlide = maxSlide;
+  } else {
+    curSlide--;
+  }
+
+  //   move slide by 100%
+  slides.forEach((slide, indx) => {
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+});
+
+</script>
+</html>
