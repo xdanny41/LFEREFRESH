@@ -14,3 +14,61 @@
 @media (max-width: 640px) {}
 
 @media (max-width: 475px) {}
+
+
+/**
+        <div class="imgContainer"><img src="/Images/Legacy.jpg" alt="history"></div>
+
+
+  <div class="brothers-list">
+            <div class="row">
+              <div class="col-lg-6" style="color: black; text-align: center; font-family: Chivo, sans-serif;">     
+                <li><h1 class="gap">Alpha Beta Class</h1></li>
+                <li><h2 class="gap">Spring '23</h2></li>
+                <li class="gap2">#212 Christian "Flynn Rider" Chenevey</li>
+                <li class="gap2">#213 Jack "Rick Sanchez" Kaiser</li>
+                <li class="gap2">#214 Pierre "Sid Phillips" Mason</li>
+                <li class="gap2">#215 Jackson "Morty" McKay</li>
+                <li class="gap2">#216 Duy "Mr.Washee Washee" Nguyen</li>
+                <li class="gap2">#217 Seojin "Beethoven" Park</li>
+                <li><h2 class="gap" style="padding-top: 30px;">New Member Educator</h2></li>
+                <li class="gap2">#189 Danny "MyChonny" Nguyen</li>
+              </div>
+              <div class="col-lg-6">
+                <div class="video" style="">
+                  <video width="100%" height="100%"autoplay muted replay>
+                    <source
+                      src="/Images/IMG_1913.MOV"
+                      type="video/mp4"
+                      class="rushvid"
+                    />
+                  </video> 
+                </div>
+              </div> 
+              
+
+            </div>
+          </div>
+
+//IMAGE ONLY
+
+           <div class="brothers-list">
+            <div class="row">
+              <div class="col-lg-6" style="color: black; text-align: center; font-family: Chivo, sans-serif;">     
+               <li><h1 class="gap">Phi Class</h1></li>
+      <li><h2 class="gap">Spring 21'</h2></li>
+      <li class="gap2">#178 Mark "Ryu" Dodson</li>
+      <li class="gap2">#179 Luke "Korean Zombie" Jung</li>
+      <li class="gap2">#180 Quang "Happy Feet" Truong"</li>
+                <li><h2 class="gap" style="padding-top: 30px;">New Member Educator</h2></li>
+      <li class="gap2">#154 John "Ti-84" Bui</li>
+              </div>
+              <div class="col-lg-6">
+                <div class="imgContainer"><img src="/Images/SP'22.jpg" alt="history"></div>
+
+              </div> 
+              
+
+            </div>
+          </div> 
+*/

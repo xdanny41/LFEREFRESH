@@ -244,6 +244,10 @@ blockquote { max-width: 33rem; margin-inline: auto }
   .socials {
     padding-left: 50px;
         padding-right: 50px;  }
+
+        .video-container {
+          max-width: 50%;
+        }
 }
 
 
@@ -367,10 +371,14 @@ footer{
 .social-links a:hover {
   transform: translateY(-10px);
 }
+video {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 </style>
-<div class="d-lg-none">
-<nav class="navbar fixed-top navbar-dark" style="  background-color: rgba(0, 0, 0, 0.8);
+<nav class="navbar fixed-top" style="  background-color: black;
 ">
   <div id="nav">
     <div id="close">
@@ -382,13 +390,12 @@ footer{
       <li><a href="/Home.html" style="text-decoration: none; color: #FFF; font-family: Chivo, sans-serif;">HOME</a></li>
       <li><a href="/Rush.html" style="text-decoration: none; color: #FFF; font-family: Chivo, sans-serif;">RUSH</a></li>
       <li><a href="/AboutUs.html" style="text-decoration: none; color: #FFF; font-family: Chivo, sans-serif;">ABOUT US</a></li>
-      <li><a href="/Archives.html" style="text-decoration: none; color: #FFF; font-family: Chivo, sans-serif;">ARCHIVES</a></li>
+      <li><a href="/Brothers.html" style="text-decoration: none; color: #FFF; font-family: Chivo, sans-serif;">BROTHERS</a></li>
       <li><a href="/ContactUs.html" style="text-decoration: none; color: #FFF; font-family: Chivo, sans-serif;">CONTACT US</a></li>
     </ul>
     </div>
   </div>
 </nav>
-</div>
 <header>
 
     <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
@@ -429,9 +436,16 @@ footer{
   
 
     <div class="container-fluid">
-        <div class="video-container">
-<iframe class="vid" width="1500" height="720" src="https://www.youtube.com/embed/Ee3r9gGhedw" title="OU Lambda Phi Epsilon: Fall &#39;23 Alpha Gamma Class Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe>        </div>
-    </div>
+      <div class="video" style="">
+          <video width="75%" height="75%"autoplay muted replay>
+            <source
+              src="/Class Videos/AG.mp4"
+              type="video/mp4"
+              class="rushvid"
+            />
+          </video> 
+      </div>
+    </div> 
   <div class="container-fluid">
     <div class="socials">
       <h1 style="text-align: left; padding-bottom: 30px;">SOCIALS</h1>

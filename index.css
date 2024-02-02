@@ -4,7 +4,18 @@
   padding: 0;
 }
 
-
+body #phone-container {
+  position: relative;
+  width: 320px;
+  height: 570px;
+  background-color: #FFF;
+  margin: 50px auto;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.25);
+}
 
 #nav {
   position: relative;
@@ -41,7 +52,6 @@
   top: 57%;
 }
 #nav #nav-items {
-  color: white;
   visibility: hidden;
   padding-top: 50px;
   transition: all 0.5s ease;
