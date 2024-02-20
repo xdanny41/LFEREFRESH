@@ -5,6 +5,7 @@ Contributors: Sujal S.
 
 
 **HELLO LAMBDA CS NERDS. This is the Official Repository for Lambda Phi Epsilon | Alpha Phi Chapter at THE University of Oklahoma.**
+
 General Advice. This site is setup in a way where novice CS Lambda Students can learn how to effectively: Manage a site, Learn how cloud containerization works, general git practice, Learn new languages such as, HTML, CSS, JavaScript. Learn how to use frameworks & styling: bootstrap5 and how to generally make new additions/modules & pages to the existing website.
 
 **How this repo works & what it contains:**
