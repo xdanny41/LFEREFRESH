@@ -6,8 +6,12 @@ Contributors: Sujal S.
 
 **HELLO LAMBDA CS NERDS. This is the Official Repository for Lambda Phi Epsilon | Alpha Phi Chapter at THE University of Oklahoma.**
 
-General Advice. This site is setup in a way where novice CS Lambda Students can learn how to effectively: 
-Manage a site, Learn how cloud containerization works, general git practice, Learn new languages such as, HTML, CSS, JavaScript. Learn how to use frameworks & styling: Bootstrap5 and how to generally make new additions/modules & pages to the existing website.
+**General Advice:** 
+- This site is setup in a way where novice CS Lambda Students can learn how to effectively: 
+- Manage a site, Learn how cloud containerization works, general git practice, Learn new languages such as, HTML, CSS, JavaScript. Learn how to use frameworks & styling: Bootstrap5 and how to generally make new additions/modules & pages to the existing website.
+- If you want to make your own site, I highly recommend you make it from scratch with more people so that you can have something on your resume.
+- Active house will sometimes make retarded request. You may choose to uphold the request at your own risk.
+
 
 **How this repo works & what it contains:**
  - Created with:
@@ -31,7 +35,7 @@ Lineage Page -
  - Needs an overhaul from old website
  - Issue: Making a new tree responsive may be difficult :skull-emoji:
 
-**For Sujal:**
+**For Webmster:**
  - Learn how Bootstrap5 styling framework works (please read docs).
  - Learn how HTML, CSS, JS works
  - Learn how site responsiveness works (most important)
@@ -41,7 +45,7 @@ Lineage Page -
  - Not how fast a site reacts but how a site reacts to changes in screen size.
  - Most website designs may look terrible on mobile if site isnt responding reponsively.
 
- Task for Sujal:
+ Task for Webmaster:
  - For brothers page, when screen size changes to mobile, remove video and add class photo (refer to Example file).
  - Add links to social buttons on front-page.
 
