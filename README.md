@@ -6,7 +6,8 @@ Contributors: Sujal S.
 
 **HELLO LAMBDA CS NERDS. This is the Official Repository for Lambda Phi Epsilon | Alpha Phi Chapter at THE University of Oklahoma.**
 
-General Advice. This site is setup in a way where novice CS Lambda Students can learn how to effectively: Manage a site, Learn how cloud containerization works, general git practice, Learn new languages such as, HTML, CSS, JavaScript. Learn how to use frameworks & styling: bootstrap5 and how to generally make new additions/modules & pages to the existing website.
+General Advice. This site is setup in a way where novice CS Lambda Students can learn how to effectively: 
+Manage a site, Learn how cloud containerization works, general git practice, Learn new languages such as, HTML, CSS, JavaScript. Learn how to use frameworks & styling: Bootstrap5 and how to generally make new additions/modules & pages to the existing website.
 
 **How this repo works & what it contains:**
  - Created with:
@@ -41,10 +42,14 @@ Lineage Page -
  - Most website designs may look terrible on mobile if site isnt responding reponsively.
 
  Task for Sujal:
- - For brothers page, when screen size is below "x" change video to class image.
+ - For brothers page, when screen size changes to mobile, remove video and add class photo (refer to Example file).
  - Add links to social buttons on front-page.
 
  **General Maintainence:** 
  - Have google crawl new site.
  - Update Site XML.
  - Figure out how to send in a contact-form to an email using PHP. Having issues with GCP so not sure if this is possible on cloud storage :sad-face: 
+
+
+**Contact Me:**
+ - In any case you "the webmaster" is having any trouble with the website, please refer to the OULambdas Contact Sheet and text me.
